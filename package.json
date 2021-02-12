@@ -1,0 +1,32 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "Desktop calculator app",
+  "main": "index.js",
+  "dependencies": {
+    "electron": "^11.2.3",
+    "electron-packager": "^15.2.0"
+  },
+  "devDependencies": {
+    "electron": "^11.2.3",
+    "electron-packager": "^15.2.0"
+  },
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "electron-packager ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gp-97/calculator-js.git"
+  },
+  "keywords": [
+    "calculator-js"
+  ],
+  "author": "Gaurav patel",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/gp-97/calculator-js/issues"
+  },
+  "homepage": "https://github.com/gp-97/calculator-js#readme"
+}
