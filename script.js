@@ -89,5 +89,8 @@ function calcAnswer() {
         default:
             break;
     }
+    if (((answer % 1)!=0) || ((Math.LN10(answer)+1) > 5)) {
+        answer = answer.toExponential(4);
+    }
     display.innerHTML = answer.toString();
 }
